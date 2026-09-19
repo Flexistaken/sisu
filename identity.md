@@ -5,7 +5,7 @@
 **Faz -1:** 16–20 Eylül 2026 — sadece uyku + kaynaklar
 **Faz 0:** 21–27 Eylül 2026 — kurulum, taban testi, taşınma
 **Gün 1:** 28 Eylül 2026
-**Gün 111:** 17 Ocak 2027 — bitiş değil, karar kapısı
+**Gün 112:** 17 Ocak 2027 — bitiş değil, karar kapısı
 
 ---
 

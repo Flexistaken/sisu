@@ -1,6 +1,6 @@
 # SISU
 
-Bu klasör SISU: 28 Eylül 2026'da başlayan 111 günlük kişisel gelişim sisteminin hem git reposu hem Obsidian vault'u.
+Bu klasör SISU: 28 Eylül 2026'da başlayan 112 günlük kişisel gelişim sisteminin hem git reposu hem Obsidian vault'u.
 `identity.md` niye çalıştığını, `system.md` nasıl çalıştığını, `playbook.md` Gün 1'e kadar yapılacakları tanımlar; `baseline.md` 19 Eylül ölçümleridir.
 `areas/` beş alanın güncel durumunu, `daily/` `weekly/` `monthly/` kayıtları, `templates/` günlük ve haftalık şablonları tutar.
 

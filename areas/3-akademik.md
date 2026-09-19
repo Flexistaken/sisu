@@ -20,7 +20,7 @@ Başlangıç: bkz. baseline.md (19 Eylül 2026). Güncel sayılar aylık değerl
 - Sınav Modu önceden ilan edilir, bir sınav dönemi için en fazla 2 hafta.
 
 ## Açık konular
-- Dil sınavı tarihi — (24 Eylül Prof. Dr. Serhat Özekes'e sorulacak)
+- Dil sınavı tarihi — dönem içinde duyurulacak (koordinatör de bilmiyor). Varsayım: finallerin ortası.
 - Hangi 2–3 birikimli ders —
 - Ders seçimi ve programı — (21 Eylül)
 - Vize/final takvimi ve Sınav Modu haftaları —

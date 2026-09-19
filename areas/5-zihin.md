@@ -1,7 +1,7 @@
 # Alan 5 — ZİHİN · günlük + okuma + dikkat
 
 ## Bu dönemki hedef
-Günlük her gün. Okuma günde 10 sayfa (111 gün ≈ 1100 sayfa ≈ 3–4 kitap).
+Günlük her gün. Okuma günde 10 sayfa (112 gün ≈ 1120 sayfa ≈ 3–4 kitap).
 Sosyal medya + kısa video haftalık ortalaması kademeli düşer: hafta 1–2 ≤ 3 sa, hafta 3–4 ≤ 2 sa, hafta 5+ ≤ 1,5 sa.
 
 ## Ölçümler

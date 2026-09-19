@@ -1,0 +1,35 @@
+#!/bin/sh
+# K3 — Haftalık değerlendirme yapılmadan yeni hafta başlamaz.
+# 2. haftadan itibaren: geçen haftanın weekly/wNN.md dosyası yoksa veya
+# Taban / Obstacle / Plan satırları doldurulmamışsa commit reddedilir.
+# Test: SISU_TODAY=2026-10-05 sh .githooks/pre-commit
+# --no-verify ile atlamak K3 ihlalidir ve o haftanın weekly dosyasına yazılır.
+
+START="2026-09-28"
+TODAY="${SISU_TODAY:-$(date +%Y-%m-%d)}"
+DAYS=$(( ( $(date -d "$TODAY" +%s) - $(date -d "$START" +%s) ) / 86400 ))
+WEEK=$(( DAYS / 7 ))
+
+[ "$WEEK" -lt 1 ] && exit 0
+
+PREV=$(printf "weekly/w%02d.md" "$WEEK")
+
+fail() {
+  echo "K3 ihlali: $PREV — $1"
+  echo "Haftalık değerlendirme yapılmadan yeni hafta başlamaz."
+  exit 1
+}
+
+[ -f "$PREV" ] || fail "dosya yok."
+
+CONTENT=$(tr -d '\r' < "$PREV")
+has() { printf '%s\n' "$CONTENT" | grep -Eq "$1"; }
+
+has '^Taban: *[0-7] */ *7' \
+  || fail "'Taban: N/7' satırı doldurulmamış."
+has '^Obstacle[^:]*: *[^ ]' \
+  || fail "WOOP 'Obstacle' boş."
+printf '%s\n' "$CONTENT" | grep -E '^Plan: *[^ ]' | grep -vq '______' \
+  || fail "WOOP 'Plan' doldurulmamış."
+
+exit 0

@@ -88,13 +88,13 @@ Bu hafta **taban çalışıyor** ama başka hiçbir şey yok. Amaç: taban bir �
 
 ### 24 Eylül · Perşembe
 
-- [ ] **Prof. Dr. Serhat Özekes'e dil sınavı tarihini sor.** Tüm Ocak planlaması buna dayanıyor. Mail veya yüz yüze.
+- [x] ~~Özekes'e dil sınavı tarihini sor~~ — sorulmuştu: tarih dönem içinde duyurulacak. Varsayım: finallerin ortası. Duyuruyu takip et.
 - [ ] Taban
 
 ### 25 Eylül · Cuma — İSTANBUL'A TAŞINMA
 
 - [ ] **Sadece taban.** Başka hiçbir şey. Bu günün tek testi bu.
-- [ ] **Taha ile üç konuyu konuş** (taşındıktan sonra değil, bugün):
+- [ ] **Taha ile üç konuyu konuş** (Taha 27 gecesi geliyor — telefonda, en geç 27'de; eve girmeden önce):
     - Gece evde ışık ve ses düzeni — saat kaçtan sonra ne olur
     - Mutfakta ne bulunacak, alışveriş nasıl yapılacak
     - Gym: hangi salon, hangi günler, kim kimi bekler
@@ -102,7 +102,7 @@ Bu hafta **taban çalışıyor** ama başka hiçbir şey yok. Amaç: taban bir �
 ### 26–27 Eylül · Cumartesi–Pazar
 
 - [ ] Ev kurulumu, telefonun şarj yeri belirlenir, çalar saat alınır
-- [ ] Gym kararı ve üyelik
+- [ ] Gym kararı (üyelik 28 Eylül'e kaydı — Taha 27 gecesi geliyor)
 - [ ] Markete git, mutfağı doldur
 - [ ] **Deneme haftalık değerlendirmesi:** `weekly/faz0.md` yaz. Faz 0'ın 7 günü üzerinden. Amaç şablonu test etmek. (Numaralandırmanın dışında — `w01` 28 Eylül–4 Ekim haftasının değerlendirmesidir.)
 - [ ] Taban
@@ -118,9 +118,9 @@ Bu hafta **taban çalışıyor** ama başka hiçbir şey yok. Amaç: taban bir �
 3. Project bilgisine (knowledge) şu dosyaları yükle:
     - `identity.md`
     - `system.md`
-    - `areas/` altındaki 5 dosya
+    - (`areas/` ilk aylık değerlendirmeden sonra — bkz. system.md §8)
 4. `daily/`, `weekly/`, `monthly/` **yüklenmez** — her mesajda yüklenir ve token yakar. Gerektiğinde yapıştırılır.
-5. Dosyalar değiştiğinde Project bilgisini güncelle (aylık değerlendirmede, `areas/` güncellenince)
+5. `identity.md` / `system.md` değiştiğinde Project'teki kopyayı da güncelle. `areas/` ilk aylık değerlendirmede (28 Ekim) eklenir.
 
 ---
 
@@ -139,6 +139,8 @@ git push -u origin main
 ```
 
 ### Pre-commit hook (K3)
+
+> **Güncel sürüm `.githooks/pre-commit`'te** (19 Eylül): içerik kontrolü eklendi, repoya dahil. Kurulum: `git config core.hooksPath .githooks`. Aşağıdaki ilk sürüm tarihçe olarak duruyor.
 
 `.git/hooks/pre-commit` dosyası, çalıştırılabilir yap (`chmod +x`):
 

@@ -1,7 +1,7 @@
 # Alan 4 — İNŞA · üretmek + Claude'da ustalaşmak
 
 ## Bu dönemki hedef
-Dönem sonunda yayınlanmış, çalışan en az bir şey (111 günde para kazanılmaz, yayınlanır).
+Dönem sonunda yayınlanmış, çalışan en az bir şey (112 günde para kazanılmaz, yayınlanır).
 Claude'u soru sorulan yerden iş yapılan yere çevirmek.
 
 ## Ölçümler

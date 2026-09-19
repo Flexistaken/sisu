@@ -11,7 +11,7 @@ Bu dosya **nasıl** çalıştığını tanımlar. `identity.md` **niye** çalı�
 | **Faz -1** | 16–20 Eylül | Sadece kalkış saati. Kaynaklar. Baseline ölçümleri. |
 | **Faz 0** | 21–27 Eylül | Kurulum, repo, Project. Taban çalışıyor. 25'inde taşınma. |
 | **Gün 1** | 28 Eylül | Sistem tam açılıyor. |
-| **Gün 111** | 17 Ocak 2027 | Karar kapısı. Faz 2 kararı burada verilir. |
+| **Gün 112** | 17 Ocak 2027 | Karar kapısı. Faz 2 kararı burada verilir. |
 
 Ara kilometre taşları: Ay 1 → 28 Ekim · Ay 2 → 28 Kasım · Ay 3 → 28 Aralık
 
@@ -62,7 +62,7 @@ Telefon gece odada ama yataktan uzanılamayacak mesafede şarj olur. Alarm için
 Şablon sınırsız olsaydı sabah 8 madde yazılır, akşam 3'ü yapılır, gün "5 iş yapamamış gün" olarak kaydedilirdi. Üç slot, üçü bitince günü **tam** yapar.
 
 **K3 — Haftalık değerlendirme yapılmadan yeni hafta başlamaz.**
-Mekanizma: repoda pre-commit hook. Geçen haftanın `weekly/wNN.md` dosyası yoksa günlük commit reddedilir.
+Mekanizma: repoda sürümlenen pre-commit hook (`.githooks/pre-commit`, `core.hooksPath`). Geçen haftanın `weekly/wNN.md` dosyası yoksa veya Taban / Obstacle / Plan satırları boşsa günlük commit reddedilir. `--no-verify` ile atlamak K3 ihlalidir ve o haftanın weekly dosyasına yazılır.
 *2. haftadan itibaren geçerli.*
 Sebebi: haftalık değerlendirme ilk düşen şeydir ve düştüğünde sistem körleşir — sessiz kayma tam orada olur.
 
@@ -91,14 +91,14 @@ Zaman çakışmasında kazanan alan.
 
 **Birikimli dersler** (matematik, devreler, sinyal, programlama) haftalık takip edilir — bunlarda bilgi değil **beceri** ediniliyor ve beceri tekrar olmadan oluşmuyor; yığma fizik olarak çalışmaz. **Ezber/genişlik dersleri** kendi yöntemine bırakılır. Seçilen birikimli ders sayısı: 2–3.
 
-**Dil sınavı hazırlığı Ekim–Aralık'ta yapılır, Ocak'ta yapılmaz.** Sınav finallerin ortasında; o hafta Sınav Modu'nda olunacak ve İngilizce'ye zaman kalmayacak. Ocak'a bırakmak matematiksel olarak imkânsızdır.
+**Dil sınavı hazırlığı Ekim–Aralık'ta yapılır, Ocak'ta yapılmaz.** Sınav finallerin ortasında (varsayım — tarih dönem içinde duyurulacak); o hafta Sınav Modu'nda olunacak ve İngilizce'ye zaman kalmayacak. Ocak'a bırakmak matematiksel olarak imkânsızdır.
 
 **Ölçümler:** seçilen birikimli dersler o hafta bloğunu aldı mı (2–3 blok/hafta) · dil sınavı blokları (3/hafta).
 
 ### 4 — İNŞA · üretmek + Claude'da ustalaşmak
 Tek alan, çünkü ayrılırsa "öğrenme" video izleyip hiçbir şey üretmemeye dönüşür.
 
-"Para kazanan sistem" bu alanın içinde, dürüst kapsamla: 111 günde para kazanılmaz, **yayınlanır**.
+"Para kazanan sistem" bu alanın içinde, dürüst kapsamla: 112 günde para kazanılmaz, **yayınlanır**.
 
 **Haftalık prompt mekaniği.** Anthropic'in interaktif kursu 9 bölüm. Haftada bir bölüm okunur ve o hafta o teknik Claude ile bilinçli kullanılır. Haftalık değerlendirmede tek soru: *"bu teknik ne fark yarattı?"*
 
@@ -112,7 +112,7 @@ Tek alan, çünkü ayrılırsa "öğrenme" video izleyip hiçbir şey üretmemey
 ### 5 — ZİHİN · günlük + okuma + dikkat
 **Günlük:** her gün. Kişisel günlük repo **dışında** kalır; log'a sadece "günlük yazıldı" olarak geçer. Ölçülen şeyle içini döktüğün şey karışırsa ikisi de bozulur.
 
-**Okuma:** günde 10 sayfa. Küçük görünüyor ama %15'lik günde de yapılabilir olması şart. 111 gün × 10 sayfa ≈ 1100 sayfa ≈ 3–4 kitap. Kitap Faz 0'da seçilir.
+**Okuma:** günde 10 sayfa. Küçük görünüyor ama %15'lik günde de yapılabilir olması şart. 112 gün × 10 sayfa ≈ 1120 sayfa ≈ 3–4 kitap. Kitap Faz 0'da seçilir.
 
 **Dikkat:** ölçülen şey **toplam ekran süresi değil**, sosyal medya ve kısa video süresi (Instagram, TikTok, Shorts). Kod yazmak, ders çalışmak, Claude ile konuşmak ekran süresidir ama sorun değildir; toplam süreyi hedeflemek iyi kullanımı da cezalandırır.
 
@@ -181,14 +181,16 @@ Her katmanda sadece o katmanda işe yarayan bilgi.
 **Claude konuşmaları hatırlamaz.** Süreklilik dosyalarda, Claude'da değil. Tasarım buna göre kurulmuştur.
 
 **Project bilgisine konacaklar** (sabit, küçük, her konuşmada yüklü):
-`identity.md` · `system.md` · `areas/*.md`
+`identity.md` · `system.md`
+`areas/*.md` ilk aylık değerlendirmeden (28 Ekim) sonra eklenir — o zamana kadar system.md'nin kopyasıdır, yaşayan durum tutmaz.
+`playbook.md` ve `baseline.md` konmaz: biri tek kullanımlık, diğeri sadece aylık/kapanışta gerekir, gerektiğinde yapıştırılır.
 
 **Project'e konmayacaklar** (hacimli, gerektiğinde yapıştırılır):
 `daily/` · `weekly/` · `monthly/`
 
 **Model bölüşümü:** günlük check-in → Sonnet. Haftalık, aylık, tasarım → Opus.
 
-**Konuşma hijyeni:** haftada bir yeni konuşma. Tek dev thread'de 111 gün gidilirse her mesajda tüm geçmiş yeniden yüklenir ve maliyet katlanır.
+**Konuşma hijyeni:** haftada bir yeni konuşma. Tek dev thread'de 112 gün gidilirse her mesajda tüm geçmiş yeniden yüklenir ve maliyet katlanır.
 
 **Devir teslim:** `weekly/wNN.md`, hafızası olmayan bir Claude'un okuyacağı varsayımıyla yazılır. "Kararlar ve açık konular" bölümü süreklilik mekanizmasıdır.
 
