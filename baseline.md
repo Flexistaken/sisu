@@ -104,5 +104,5 @@ GitHub: github.com/Flexistaken — repo ve commit sayısı ilk push'ta not edile
 - [ ] Aynı ölçüler alındı
 - [ ] Aynı fotoğraflar çekildi, yan yana konuldu
 - [ ] Yukarıdaki yazı okundu
-- [ ] `identity.md`'deki dört cümle işaretlendi: oldu / olmadı / kısmen
+- [ ] `identity.md`'deki beş cümle işaretlendi: oldu / olmadı / kısmen
 - [ ] Faz 2 kararı verildi

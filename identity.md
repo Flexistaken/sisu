@@ -31,12 +31,15 @@ Zinciri salak bir şey yüzünden kırdığım gün bile ertesi gün kalktım, v
 
 Dil sınavından 95+ aldım ve Erasmus yolundayım.
 
+Güz 2026 dönem ortalamam 3,5'in üstünde.
+
 Kodlama ve üretme tarafında gerçekten yol kat ettim — yayında, çalışan bir şeyim var, linkini atabiliyorum.
 
 Eylül'de her aynaya baktığımda moralim bozuluyordu. Artık bozulmuyor, ve bunu çevremdekiler de görüyor.
 
 > Dil sınavı: hedef 95, uzanma hedefi 100. İkisi arasındaki her sonuç başarıdır.
 > Erasmus'u kazandıran her puan, 100 olmasa da, hedefe ulaşmıştır.
+> Sınav sonucu ve dönem notları 17 Ocak'tan sonra gelebilir — bu iki cümle sonuç gelince ayrıca işaretlenir.
 
 ---
 

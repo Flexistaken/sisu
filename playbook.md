@@ -255,7 +255,7 @@ O gün yapılacaklar:
 - Baseline fotoğrafının aynısı çekilir, yan yana konur
 - `baseline.md`'deki 10 satırlık yazı okunur
 - Tüm sayılar karşılaştırılır
-- `identity.md`'deki dört cümle tek tek işaretlenir: oldu / olmadı / kısmen
+- `identity.md`'deki beş cümle tek tek işaretlenir: oldu / olmadı / kısmen (dil sınavı ve dönem ortalaması cümleleri sonuç gelince)
 - **Faz 2 kararı verilir:** devam, değiştir, veya dur
 
 Faz 2 kararı o gün verilir — öncesinde değil.
