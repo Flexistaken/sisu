@@ -1,7 +1,6 @@
 # SISU — Playbook
 
-Gün 1'e kadar ne yapılacağı, kurulum talimatları ve şablonlar.
-Bu dosya bir kez kullanılır ve sonra referans olarak durur.
+Gün 1'e kadar ne yapılacağı, kurulum talimatları ve şablonlar. Bu dosya bir kez kullanılır ve sonra referans olarak durur.
 
 ---
 
@@ -10,6 +9,7 @@ Bu dosya bir kez kullanılır ve sonra referans olarak durur.
 Bu beş günün tek amacı var: **28 Eylül'de sistem açıldığında uyku düzeninin oturmuş olması.** Kalkış saatinin yerleşmesi 4–7 gün alır. 21'inde başlarsan 25'inde taşınırken hâlâ ayarlanıyor olursun.
 
 ### Her gün
+
 - [ ] **08:00'de kalk.** Yatış saatini düşünme, kontrol edemezsin. Kalkışı kontrol edersin.
 - [ ] **Gündüz uyuma.** Bu kritik — gündüz uykusu tüm süreci sıfırlar.
 - [ ] Telefon yataktan uzanılamayacak mesafede şarj olsun.
@@ -17,11 +17,10 @@ Bu beş günün tek amacı var: **28 Eylül'de sistem açıldığında uyku düz
 İlk gece 02:00'de uyursun, ikinci 01:00, üçüncü 00:30. Uyku basıncı işi kendisi halleder. "Yatağa girdim ama uyuyamadım" bir başarısızlık değil, sürecin normal parçası.
 
 ### 16–20 Eylül içinde bir kez
+
 - [ ] **Baseline ölçümleri** → `baseline.md` (aşağıda liste var). Bu şimdi yapılmazsa bir daha yapılamaz.
-- [ ] Miessler'ın yazısını oku: `danielmiessler.com/blog/personal-ai-infrastructure`
-  → Bakılacak: üç katmanlı hafıza ayrımı ve ISC fikri
-- [ ] Bir Obsidian + Claude Code videosu izle: `youtube.com/watch?v=glAoiBWVkmU`
-  → Bakılacak: günlük kullanımda nasıl göründüğü. Kurulum adımlarını ezberleme.
+- [ ] Miessler'ın yazısını oku: `danielmiessler.com/blog/personal-ai-infrastructure` → Bakılacak: üç katmanlı hafıza ayrımı ve ISC fikri
+- [ ] Bir Obsidian + Claude Code videosu izle: `youtube.com/watch?v=glAoiBWVkmU` → Bakılacak: günlük kullanımda nasıl göründüğü. Kurulum adımlarını ezberleme.
 - [ ] Obsidian'ı indir, boş bir vault aç, 20 dakika kurcala. Okumak değil, dokunmak.
 
 ---
@@ -31,6 +30,7 @@ Bu beş günün tek amacı var: **28 Eylül'de sistem açıldığında uyku düz
 20 dakikalık iş. 17 Ocak'ta "değiştim" diyebilmenin tek yolu.
 
 **Vücut**
+
 - Kilo (sabah, aç karnına)
 - Boy
 - Ölçüler: bel, göğüs, kol, uyluk
@@ -39,23 +39,26 @@ Bu beş günün tek amacı var: **28 Eylül'de sistem açıldığında uyku düz
 - Sol/sağ bacak farkı hissi — tek bacak squat kaç tekrar, hangi taraf zayıf
 
 **Uyku**
+
 - Son 7 günün yatış ve kalkış saatleri (Apple Watch'tan çek)
 - Ortalama uyku süresi
 
 **Dikkat**
+
 - Son 7 günün günlük ekran süresi ortalaması
 - Bunun içinde Instagram + TikTok + Shorts payı
 
 **Akademik**
+
 - GANO: 2.64
 - Bu dönem alınan dersler ve kredileri (21 Eylül'de eklenir)
 
 **İnşa**
+
 - GitHub'daki mevcut repo sayısı ve son 30 günün commit sayısı
 - Yayında olan şey sayısı: 0
 
-**Ve bir yazı**
-Bugün nerede olduğunu kendi kelimelerinle 10 satır yaz. 17 Ocak'ta bunu okuyacaksın. Süslemeden yaz.
+**Ve bir yazı** Bugün nerede olduğunu kendi kelimelerinle 10 satır yaz. 17 Ocak'ta bunu okuyacaksın. Süslemeden yaz.
 
 ---
 
@@ -64,6 +67,7 @@ Bugün nerede olduğunu kendi kelimelerinle 10 satır yaz. 17 Ocak'ta bunu okuya
 Bu hafta **taban çalışıyor** ama başka hiçbir şey yok. Amaç: taban bir şehir değişikliğinden sağ çıkabiliyor mu?
 
 ### 21 Eylül · Pazartesi
+
 - [ ] Ders seçimi
 - [ ] Ders programını not et → hafta içi kalkış saatleri buna göre sabitlenir
 - [ ] GitHub'da `sisu` reposunu oluştur (public)
@@ -71,31 +75,36 @@ Bu hafta **taban çalışıyor** ama başka hiçbir şey yok. Amaç: taban bir �
 - [ ] **Taban bugün başlıyor.** İlk `daily/2026-09-21.md` dosyası.
 
 ### 22 Eylül · Salı
+
 - [ ] `areas/` altındaki 5 dosyayı yaz (şablon aşağıda)
 - [ ] Claude Project'i kur (talimat aşağıda)
 - [ ] Taban
 
 ### 23 Eylül · Çarşamba
+
 - [ ] Pre-commit hook'u yaz (K3) — 2. haftadan itibaren devreye girecek
 - [ ] Okunacak kitabı seç
 - [ ] Taban
 
 ### 24 Eylül · Perşembe
+
 - [ ] **Prof. Dr. Serhat Özekes'e dil sınavı tarihini sor.** Tüm Ocak planlaması buna dayanıyor. Mail veya yüz yüze.
 - [ ] Taban
 
 ### 25 Eylül · Cuma — İSTANBUL'A TAŞINMA
+
 - [ ] **Sadece taban.** Başka hiçbir şey. Bu günün tek testi bu.
 - [ ] **Taha ile üç konuyu konuş** (taşındıktan sonra değil, bugün):
-  - Gece evde ışık ve ses düzeni — saat kaçtan sonra ne olur
-  - Mutfakta ne bulunacak, alışveriş nasıl yapılacak
-  - Gym: hangi salon, hangi günler, kim kimi bekler
+    - Gece evde ışık ve ses düzeni — saat kaçtan sonra ne olur
+    - Mutfakta ne bulunacak, alışveriş nasıl yapılacak
+    - Gym: hangi salon, hangi günler, kim kimi bekler
 
 ### 26–27 Eylül · Cumartesi–Pazar
+
 - [ ] Ev kurulumu, telefonun şarj yeri belirlenir, çalar saat alınır
 - [ ] Gym kararı ve üyelik
 - [ ] Markete git, mutfağı doldur
-- [ ] **Deneme haftalık değerlendirmesi:** `weekly/w00.md` yaz. Faz 0'ın 7 günü üzerinden. Amaç şablonu test etmek.
+- [ ] **Deneme haftalık değerlendirmesi:** `weekly/faz0.md` yaz. Faz 0'ın 7 günü üzerinden. Amaç şablonu test etmek. (Numaralandırmanın dışında — `w01` 28 Eylül–4 Ekim haftasının değerlendirmesidir.)
 - [ ] Taban
 
 ### 28 Eylül · Pazartesi — **GÜN 1**
@@ -107,9 +116,9 @@ Bu hafta **taban çalışıyor** ama başka hiçbir şey yok. Amaç: taban bir �
 1. Claude'da yeni bir Project aç, adı: **SISU**
 2. Project talimatlarına (custom instructions) `identity.md`'nin **"Claude'a talimat"** bölümünü yapıştır
 3. Project bilgisine (knowledge) şu dosyaları yükle:
-   - `identity.md`
-   - `system.md`
-   - `areas/` altındaki 5 dosya
+    - `identity.md`
+    - `system.md`
+    - `areas/` altındaki 5 dosya
 4. `daily/`, `weekly/`, `monthly/` **yüklenmez** — her mesajda yüklenir ve token yakar. Gerektiğinde yapıştırılır.
 5. Dosyalar değiştiğinde Project bilgisini güncelle (aylık değerlendirmede, `areas/` güncellenince)
 
@@ -143,7 +152,7 @@ WEEK=$(( DAYS / 7 ))
 
 [ "$WEEK" -lt 1 ] && exit 0
 
-PREV=$(printf "weekly/w%02d.md" $((WEEK - 1)))
+PREV=$(printf "weekly/w%02d.md" "$WEEK")
 if [ ! -f "$PREV" ]; then
   echo "K3 ihlali: $PREV yok. Haftalık değerlendirme yapılmadan yeni hafta başlamaz."
   exit 1
@@ -240,6 +249,7 @@ Detay haftalık değerlendirmelerde çıkar. Bu sadece yön.
 Bitiş değil, **karar kapısı.**
 
 O gün yapılacaklar:
+
 - Baseline fotoğrafının aynısı çekilir, yan yana konur
 - `baseline.md`'deki 10 satırlık yazı okunur
 - Tüm sayılar karşılaştırılır
