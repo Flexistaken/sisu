@@ -250,7 +250,6 @@ Kişisel günlük bu reponun dışındadır.
 ## 11. Günlük log şablonu
 
 ```markdown
-# Gün N — TARİH, GÜN
 
 ## Taban
 - [ ] Kalkış HH:MM        (gerçek: __:__)

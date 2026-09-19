@@ -1,4 +1,3 @@
-# Gün N — TARİH, GÜN
 
 ## Taban
 - [ ] Kalkış HH:MM        (gerçek: __:__)
