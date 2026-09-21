@@ -6,12 +6,12 @@ Bu dosya **nasıl** çalıştığını tanımlar. `identity.md` **niye** çalı�
 
 ## 1. Takvim
 
-| | Tarih | İş |
-|---|---|---|
-| **Faz -1** | 16–20 Eylül | Sadece kalkış saati. Kaynaklar. Baseline ölçümleri. |
-| **Faz 0** | 21–27 Eylül | Kurulum, repo, Project. Taban çalışıyor. 25'inde taşınma. |
-| **Gün 1** | 28 Eylül | Sistem tam açılıyor. |
-| **Gün 112** | 17 Ocak 2027 | Karar kapısı. Faz 2 kararı burada verilir. |
+|             | Tarih        | İş                                                        |
+| ----------- | ------------ | --------------------------------------------------------- |
+| **Faz -1**  | 16–20 Eylül  | Sadece kalkış saati. Kaynaklar. Baseline ölçümleri.       |
+| **Faz 0**   | 21–27 Eylül  | Kurulum, repo, Project. Taban çalışıyor. 25'inde taşınma. |
+| **Gün 1**   | 28 Eylül     | Sistem tam açılıyor.                                      |
+| **Gün 112** | 17 Ocak 2027 | Karar kapısı. Faz 2 kararı burada verilir.                |
 
 Ara kilometre taşları: Ay 1 → 28 Ekim · Ay 2 → 28 Kasım · Ay 3 → 28 Aralık
 

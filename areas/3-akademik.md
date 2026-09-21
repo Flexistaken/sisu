@@ -13,6 +13,14 @@ Güz 2026 dönem ortalaması 3,5+.
 ## Mevcut durum (son güncelleme: —)
 Başlangıç: bkz. baseline.md (19 Eylül 2026). Güncel sayılar aylık değerlendirmede yenilenir.
 
+## Ders programı (Güz 2026, ekle-çıkar'a kadar geçici)
+- Pzt: Bilgisayar Grafik 08:30–12:20 · Algoritma Analizi 13:00–16:50
+- Salı: İşletim Sistemleri 08:30–12:20 · Sinyaller ve Sist. Giriş 13:00–14:50
+- Çarş: Mikrodenetleyiciler (teori) 10:30–12:20
+- Perş: VTYS 08:30–12:20 · Yapay Sinir Ağları 13:00–16:50
+- Cuma: Mikrodenetleyiciler (lab) 14:00–15:50
+- 7 ders. Google Calendar'da tekrarlayan etkinlik olarak var (28 Eyl – 1 Oca; 29 Ekim ve 1 Ocak hariç).
+
 ## Dil sınavı — bilinenler (19 Eylül, ERASMUS sohbetinden)
 - 50 çoktan seçmeli soru × 2 puan. 95+ = en fazla 2 yanlış.
 - Bölümler: Use of English, Reading, Listening. UoE + Reading ilk 60 dk'da biter; 60. dk'da dinleme otomatik başlar, geri dönüş yok.
@@ -44,5 +52,4 @@ Başlangıç: bkz. baseline.md (19 Eylül 2026). Güncel sayılar aylık değerl
 - Kapanış: dil sınavı 17 Ocak'tan sonraysa identity.md'deki "95+ aldım" cümlesi sonuç gelince ayrıca işaretlenir (karar, 19 Eylül).
 - Dil sınavı tarihi — dönem içinde duyurulacak (koordinatör de bilmiyor). Varsayım: finallerin ortası.
 - Hangi 2–3 birikimli ders —
-- Ders seçimi ve programı — (21 Eylül)
 - Vize/final takvimi ve Sınav Modu haftaları —
