@@ -19,6 +19,7 @@ Başlangıç: bkz. baseline.md (19 Eylül 2026). Güncel sayılar aylık değerl
 - Sıkı diyet yok, gram sayımı yok. Protein/kalori takibi şimdilik yok (istenirse haftalık değerlendirmede eklenir).
 
 ## Açık konular
+- **w01 gündemi (4 Ekim):** protein hedefi eklensin mi (≈120 g/gün önerisi). Gerekçe: göğüs/göbek/love handles hedefi büyük ölçüde yağ oranına, yani beslenmeye bağlı; system.md'de protein takibi şu an "yok".
 - Kalkış kuralı — DENEME (21 Eylül'den itibaren): sabah dersli gün ≤ 07:30 (Pzt, Salı, Perş — 08:30 dersi) · diğer hafta içi ≤ 08:00 (Çarş, Cuma) · hafta sonu ≤ 09:00. Log'a gerçek saat yazılır. w01 değerlendirmesinde (4 Ekim) veriye bakılıp karar verilir: bu kural mı, tek çapa mı. Bakılacak: hafta içi/hafta sonu farkı ≤ 1 sa tuttu mu.
 - Dışarıdan sipariş baseline'ı — (ilk hafta ölçülecek)
 - Protein/kalori takibi — (şimdilik yok)

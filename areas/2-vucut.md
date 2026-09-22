@@ -46,5 +46,7 @@ Isınma (5–8 dk): 5 dk bisiklet/kürek + ilk harekette 2 hafif set.
 - Hafta 3 sonunda: terfi kontrolü (3 hafta tuttuysa sabit blok) ve 4 güne (üst/alt) geçiş kararı.
 
 ## Açık konular
+- **w01 gündemi (4 Ekim):** ilk hafta hareketler Taha ile seçiliyor; Burak her seansı kayda geçiriyor (hareket + kg + tekrar, her seansta en az 1 tek bacak hareketi). W01'de: işe yarayanlar kalır, gerisi revize. Hedef: 4 gün üst/alt. Çarşamba koşu kulübü varsa o gün bacak yok.
+- Yukarıdaki program ve takvimdeki Salı/Cuma gym etkinlikleri TASLAK — MTH3021 kararından sonra günler sabitlenecek.
 - Salon — Taha ile; üyelik 28 Eylül. Programlar uyuşursa birlikte, uyuşmazsa tek.
 - Haftalık hedef — Hafta 1–3: 3 gym + koşu kulübü (Çarş akşam veya hafta sonu sabah, gün belirsiz).
