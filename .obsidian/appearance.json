@@ -1,5 +1,6 @@
 {
   "cssTheme": "AnuPpuccin",
   "theme": "moonstone",
-  "textFontFamily": "Cascadia Code,Bahnschrift"
+  "textFontFamily": "Cascadia Code,Bahnschrift",
+  "baseFontSize": 18
 }

@@ -5,3 +5,9 @@
 *.png
 *.heic
 *.mp4
+
+# Obsidian: indirilen tema, plugin ve fontlar repoya girmez
+.obsidian/themes/
+.obsidian/plugins/
+.obsidian/fonts/
+*.dmg

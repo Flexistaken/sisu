@@ -139,7 +139,7 @@ Vücut, İnşa'nın önünde: sakatlanır veya çökersen diğer üçü de düş
 
 Vize ve final haftaları **önceden** takvime işaretlenir.
 
-O haftalarda sadece **taban** çalışır. Vücut haftada 2 minimuma iner, İnşa durur, Zihin sadece günlüğe iner. Zincir kırılmaz.
+O haftalarda sadece **taban** çalışır. Vücut haftada 2 × 30 dk'ya iner (kısa, sadece ana hareketler), İnşa durur, Zihin sadece günlüğe iner. Zincir kırılmaz.
 
 **Önceden ilan edilir, o gün ilan edilemez.** Salı günü yorgun olduğun için Sınav Modu'na geçilmez. Bu, "%15'lik gün" açığını kapatan mekanizmadır.
 

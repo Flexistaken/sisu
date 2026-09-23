@@ -2,7 +2,7 @@
 
 ## Bu dönemki hedef
 Dönem sonunda yayınlanmış, çalışan en az bir şey (112 günde para kazanılmaz, yayınlanır).
-Claude'u soru sorulan yerden iş yapılan yere çevirmek.
+Claude'la (Claude Code / API) yayına çıkan bir şey inşa etmek — sistemi yönetmekten ürün üretmeye geçmek.
 
 ## Ölçümler
 - Haftalık commit sayısı
@@ -16,10 +16,9 @@ Başlangıç: bkz. baseline.md (19 Eylül 2026). Güncel sayılar aylık değerl
 - Proje adayları:
   - Apple Watch/Health verisinden kişisel API (4–6. haftadan önce başlanmaz)
   - `state.json` üreteci (repo private'a geçerse gerekli)
-  - Pre-commit hook (K3)
 - Sınav Modu'nda İnşa durur.
 
 ## Açık konular
 - Yayınlanacak proje hangisi —
 - Apple Health projesi — (Hafta 4 aylık değerlendirmede masaya gelir)
-- Pre-commit hook — (ayrı adım)
+- ✓ Pre-commit hook (K3) tamamlandı, 19 Eylül — İnşa'nın ilk çıktısı (`.githooks/pre-commit`).
